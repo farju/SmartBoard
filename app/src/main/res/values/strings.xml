@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Smart Bulletin</string>
+    <string name="title_activity_it">IT</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_co">CO</string>
+    <string name="title_activity_civil">civil</string>
+    <string name="title_activity_ec">EC</string>
+    <string name="title_activity_mc">MCA</string>
+    <string name="title_activity_textile">textile</string>
+    <string name="title_activity_chemical">chemical</string>
+    <string name="title_activity_arch">arch</string>
+    <string name="title_activity_electrical">electrical</string>
+    <string name="title_activity_for_all">forAll</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hiran.smartboard">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/note"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/note"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".IT" />
+        <activity android:name=".CO" />
+        <activity android:name=".MCA" />
+        <activity android:name=".ic" />
+        <activity android:name=".EC" />
+        <activity android:name=".electrical" />
+        <activity android:name=".chemical" />
+        <activity android:name=".tt" />
+        <activity android:name=".ic" />
+        <activity android:name=".civil" />
+        <activity android:name=".ForAll"></activity>
+    </application>
+
+</manifest>

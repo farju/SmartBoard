@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hiran.smartboard.Main2Activity"
+    android:background="@color/colorAccent"
+    android:padding="8dp"
+
+
+    >
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="4dp"
+            android:layout_centerHorizontal="true"
+            >
+
+            <android.support.v7.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:id="@+id/idCard"
+                android:onClick="click"
+                >
+
+                <LinearLayout android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="8dp"
+                    >
+                    <ImageView android:layout_height="80dp"
+                        android:layout_width="80dp"
+                        android:id="@+id/itImage"
+                        android:src="@drawable/it"
+
+                        android:layout_gravity="center"
+                        >
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/itText"
+                        android:layout_width="match_parent"
+                        android:textAlignment="center"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="IT"
+                        />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:id="@+id/coCard"
+                android:onClick="click"
+                >
+
+                <LinearLayout android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="8dp"
+                    >
+                    <ImageView android:layout_height="80dp"
+                        android:layout_width="80dp"
+                        android:id="@+id/coImage"
+                        android:src="@drawable/laptop"
+
+                        android:layout_gravity="center"
+                        >
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/coText"
+                        android:layout_width="match_parent"
+                        android:textAlignment="center"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="Computer"
+
+                        />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="4dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            >
+
+            <android.support.v7.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:onClick="click"
+                android:id="@+id/civilCard"
+                >
+
+                <LinearLayout android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="8dp"
+
+                    >
+                    <ImageView android:layout_height="80dp"
+                        android:layout_width="80dp"
+                        android:id="@+id/civilImage"
+                        android:src="@drawable/civil"
+                        android:layout_gravity="center"
+                        >
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/civilText"
+                        android:layout_width="match_parent"
+                        android:textAlignment="center"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="Civil"
+
+                        />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:id="@+id/ecCard"
+                android:onClick="click"
+                >
+
+                <LinearLayout android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="8dp"
+                    >
+                    <ImageView android:layout_height="80dp"
+                        android:layout_width="80dp"
+                        android:id="@+id/ecImage"
+                        android:src="@drawable/ec"
+                        android:layout_gravity="center"
+                        >
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/ecText"
+                        android:layout_width="match_parent"
+                        android:textAlignment="center"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="EC"
+
+                        />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:id="@+id/textileCard"
+                android:onClick="click">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:id="@+id/ttImage"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/tt"></ImageView>
+
+                    <TextView
+                        android:id="@+id/ttText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="Textile"
+                        android:textAlignment="center"
+
+                        />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:id="@+id/elecCard"
+                android:onClick="click">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <ImageView
+                        android:id="@+id/electricalImage"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/electrical"></ImageView>
+
+                    <TextView
+                        android:id="@+id/electricalText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="Electrical"
+                        android:textAlignment="center"
+
+                        />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="4dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            >
+
+            <android.support.v7.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:id="@+id/mcaCard"
+                android:onClick="click"
+                >
+
+                <LinearLayout android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="8dp"
+                    >
+                    <ImageView android:layout_height="80dp"
+                        android:layout_width="80dp"
+                        android:id="@+id/mcaImage"
+                        android:src="@drawable/mca"
+                        android:layout_gravity="center"
+                        >
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/mcaText"
+                        android:layout_width="match_parent"
+                        android:textAlignment="center"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="MCA"
+
+                        />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:id="@+id/icCard"
+                android:onClick="click"
+                >
+
+                <LinearLayout android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="8dp"
+                    >
+                    <ImageView android:layout_height="80dp"
+                        android:layout_width="80dp"
+                        android:id="@+id/architectureImage"
+                        android:src="@drawable/arch"
+                        android:layout_gravity="center"
+                        >
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/architectureText"
+                        android:layout_width="match_parent"
+                        android:textAlignment="center"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="IC"
+
+                        />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="4dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            >
+
+            <android.support.v7.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:id="@+id/chemCard"
+                android:onClick="click"
+                >
+
+                <LinearLayout android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="8dp"
+                    >
+                    <ImageView android:layout_height="80dp"
+                        android:layout_width="80dp"
+                        android:id="@+id/chemicalImage"
+                        android:src="@drawable/chemical"
+                        android:layout_gravity="center"
+                        >
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/chemicalText"
+                        android:layout_width="match_parent"
+                        android:textAlignment="center"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="Chemical"
+
+                        />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:id="@+id/forallCard"
+                android:onClick="click"
+                >
+
+                <LinearLayout android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:padding="8dp"
+                    >
+                    <ImageView android:layout_height="80dp"
+                        android:layout_width="80dp"
+                        android:id="@+id/forAllImage"
+                        android:src="@drawable/forall"
+                        android:layout_gravity="center"
+                        >
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/forAllText"
+                        android:layout_width="match_parent"
+                        android:textAlignment="center"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="For all"
+
+                        />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>>
+
+
+
+</ScrollView>
